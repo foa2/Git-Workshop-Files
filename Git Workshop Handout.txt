@@ -1,0 +1,45 @@
+
+foa2@api-c-florio MINGW64 ~
+$ git config --global user.name "Florio Arguillas"
+
+foa2@api-c-florio MINGW64 ~
+$ git config --global user.email "foa2@cornell.edu"
+
+foa2@api-c-florio MINGW64 ~
+$ git config --global color.ui "auto"
+
+foa2@api-c-florio MINGW64 ~
+$ git config --global core.editor "atom --wait"
+
+foa2@api-c-florio MINGW64 ~
+$ git config --list
+
+
+foa2@api-c-florio MINGW64 ~
+$ cd h:
+
+foa2@api-c-florio MINGW64 /h (master)
+$ mkdir gitsamp
+
+foa2@api-c-florio MINGW64 /h (master)
+$ cd gitsamp
+
+foa2@api-c-florio MINGW64 /h/gitsamp (master)
+$ git init
+Initialized empty Git repository in H:/gitsamp/.git/
+
+*show directory contents
+foa2@api-c-florio MINGW64 /h/gitsamp (master)
+$ ls
+
+*add -a to show everything
+foa2@api-c-florio MINGW64 /h/gitsamp (master)
+$ ls -a
+./  ../  .git/
+
+*to check if setup is correct
+foa2@api-c-florio MINGW64 /h/gitsamp (master)
+$ git status
+
+
+
