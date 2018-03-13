@@ -29,49 +29,44 @@ $ git init
 Initialized empty Git repository in H:/gitsamp/.git/
 
 *show directory contents
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ ls
 
 *add -a to show everything
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ ls -a
 ./  ../  .git/
 
 *to check if setup is correct
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ git status
 
 ****NOW CREATE A TXT FILE USING A TEXT EDITOR AND NAME IT AS  Git Workshop Handout.txt, THEN SAVE IT AND DO THIS:
 
 **untracked file will be displayed
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ git status
 
 **tell git to add the file to the list to be tracked -- File name is case sensitive
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ git add "Git Workshop Handout.txt"
 
 *new file is detected
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ git status
 
 *commit the file to the git repository to be tracked; put -m (for message) to describe the version of the file you are committing
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ git commit -m "Git Workshop Handout initial file"
 
 *check to see there are no more files to be tracked and committed
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ git status
 
 *show project history
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
 $ git log
 
 ***NOW LET US SAVE THE Git Workshop Handout.txt AGAIN.
+$ git add "Git Workshop Handout.txt"
+$ git commit -m "Add git add, git commit to the initial file"
 
-foa2@api-c-florio MINGW64 /h/gitsamp (master)
-$
 
+****NOW CREATE A GITHUB ACCOUNT *****
+
+git remote add origin https://github.com/foa2/Git-Workshop-Files.git
+git push -u origin master
 
 
 
